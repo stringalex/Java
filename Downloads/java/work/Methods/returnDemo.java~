@@ -1,0 +1,13 @@
+public class returnDemo{
+  
+  public static void main(String[] args){
+    
+    f(5);
+  }
+  
+  public static int f(int x){
+    
+    return 2 * x + 1;
+    
+  }
+}

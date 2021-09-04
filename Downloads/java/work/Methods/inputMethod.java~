@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class inputMethod{
+  
+  public static void main(String [] args) {
+    Scanner keyboard = new Scanner(System.in);
+    
+    System.out.println("What is your name?");
+    String name = keyboard.nextLine();
+    
+    
+  }
+  
+  public static void greetUser(String name) {
+    
+   System.out.println("Hello " + name); 
+  }
