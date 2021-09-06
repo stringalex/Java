@@ -1,0 +1,15 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class ArraysDemo {
+  
+  public static void main(String[] args){
+    
+    String[] toolbox = {"scissors","screwdriver","pliers"};
+    
+    for(int i = 0; i < toolbox.length; i++)
+    {
+      System.out.println(toolbox[i]);
+    }
+  }
+}
