@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class FileWriteDemo2 {
+  public static void main(String[] args) throws IOException {
+    
+    String filename;
+    String friendName;
+    int numFriends;
+    
+    Scanner keyboard = new Scanner(System.in);
+    
+    System.out.print("How many friends do you have? ");
+    numFriends = keyboard.nextInt();
+    
+    keyboard.nextLine();
+    
+    SYstem.out.print("Enter the filename: ");
+    filename = keyboard.nextLine();
+    
+    File file = new File(filename);
+    if(file.exists()) {
+      System.out.println("The file " + filename + " already exists.");
+      System.exit(0);
+  

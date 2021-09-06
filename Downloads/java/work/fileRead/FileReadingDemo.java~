@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class FileReadingDemo {
+  public static void main(String[] args) throws IOException{ 
+    
+    File f = new File("data.txt");
+    
+    Scanner fiel = new Scanner(f);
+    
+    String line = file.nextLine();
+    System.out.println(line);
+    
+    file.close();
+  }
+}
