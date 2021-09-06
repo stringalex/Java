@@ -1,0 +1,18 @@
+public class StringsExcercise {
+  
+  public static void main(String[] args){
+    
+    String first = "Raul";
+    String last = "Hernandez";
+    String city "Indio, CA";
+    
+    //Write a program that prnts, using String method calls
+    //the following:
+    //R.H. lives in INDIO, CA.
+    
+    System.out.println(first.charAt(0) + "." + last.charAt(0) + "." + 
+                       "lives in " + city.toUpperCase() + ".");
+    
+    
+  }
+}

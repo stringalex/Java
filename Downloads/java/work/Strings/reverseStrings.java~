@@ -1,0 +1,14 @@
+public class reverseString{
+  
+  public static void main(String [] args){
+  
+    int string= "world";
+    
+    reverse = StringBuilder(string).reverse().toString();
+    
+    System.out.println(string);
+    
+    
+    
+  }
+}
