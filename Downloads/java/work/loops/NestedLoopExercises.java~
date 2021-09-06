@@ -1,0 +1,17 @@
+public class NestedLoopExercises {
+  
+  public static void main(String[] args){
+    
+    //exercise 1
+     for (int j = 6; j > 0;j--)
+    {
+      for(int i = 0; i <= 3; i++)
+      {
+        System.out.print(j);
+      }
+      System.out.println();
+      
+      
+     }
+  }
+}
